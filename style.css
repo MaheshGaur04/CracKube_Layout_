@@ -1,0 +1,601 @@
+body{
+    background-color: #141518;
+}
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+.rect1{
+    /* Rectangle 1 */
+    position: absolute;
+    width: 1440px;
+    height: 318px;
+    left: 0px;
+    top: 0px;
+    background: #1D1F25;
+}
+/*Navbar Design*/
+ .navbar {
+    position: absolute;
+    width: 1440px;
+    height: 103px;
+    left: 0px;
+    top: 0px;
+    background: #1D1F25;
+    border-bottom: 0.2px solid gray;
+}
+li{
+    list-style: none;
+}
+li a:hover{
+    background-color: #111;
+}
+.demo {
+    position: absolute;
+    width: 193px;
+    height: 32px;
+    left: 36px;
+    top: 36px;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFBB29;
+}
+.home {
+    position: absolute;
+    width: 42px;
+    height: 21px;
+    left: 290px;
+    top: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.about {
+    position: absolute;
+    width: 43px;
+    height: 21px;
+    left: 372px;
+    top: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+    opacity: 0.6;
+}.work {
+    position: absolute;
+    width: 37px;
+    height: 21px;
+    left: 455px;
+    top: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.pricing {
+    position: absolute;
+    width: 49px;
+    height: 21px;
+    left: 532px;
+    top: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.blog {
+    position: absolute;
+    width: 31px;
+    height: 21px;
+    left: 621px;
+    top: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFBB29;
+}
+.setting{
+    position: absolute;
+    left: 85.33%;
+    right: 8.29%;
+    top: 43.67%;
+    bottom: 10.67%;
+    width: 25px;
+}
+.notification{
+    position: absolute;
+    left: 89.75%;
+    right: 8.29%;
+    top: 45.67%;
+    bottom: 10.67%;
+    width: 20px;
+}
+.dot{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 1305px;
+    top: 49px;
+    border-radius: 8px;
+    background: #EA4B4B;
+    border: 1px solid #FFFFFF
+}
+.line{
+    position: absolute;
+    width: 2px;
+    height: 5px;
+    left: 1301px;
+    top: 52px;
+    background: black;
+}
+.profile{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 1357px;
+    top: 34px;
+    background: url(https://c0.wallpaperflare.com/preview/731/452/1009/beautiful-beautiful-eyes-beautiful-girl-bride.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 19px;
+}
+.text{
+    position: absolute;
+    width: 778px;
+    height: 60px;
+    left: 40px;
+    top: 143px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.rect2{
+    position: absolute;
+    width: 448px;
+    height: 45px;
+    left: 40px;
+    top: 243px;
+    background: #282C38;
+    border-radius: 6px;
+}
+.search{
+    position: absolute;
+    width: 90px;
+    height: 21px;
+    left: 65px;
+    top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #757B8C;
+}
+.icon{
+    position: absolute;
+    left: 6%;
+    right: 14%;
+    top: 22%;
+    bottom: 12.5%;
+}
+.box1{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 1254px;
+    top: 1px;
+    background: #282C38;
+    border-radius: 5px;
+}
+.box2{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 1316px;
+    top: 1px;
+    background: #FFBB29;
+    border-radius: 5px;
+}
+.box11{
+    position: absolute;
+    left: 23.33%;
+    right: 46.5%;
+    top: 25.33%;
+    bottom: 61.25%;
+    background: #757B8C;
+}
+.box12{
+    position: absolute;
+    left: 24.33%;
+    right: 31.33%;
+    top: 48.25%;
+    bottom: 37.33%;
+    background: #757B8C;
+}
+.box21{
+    position: absolute;
+    left: 53.33%;
+    right: 25.25%;
+    top: 28.33%;
+    bottom: 51.29%;
+    background: #141518;
+    border-radius: 3px;
+}
+.box22{
+    position: absolute;
+    left: 27.33%;
+    right: 51.25%;
+    top: 28.33%;
+    bottom: 51.29%;
+    background: #141518;
+    border-radius: 3px;
+}
+.box23{
+    position: absolute;
+    left: 27.33%;
+    right: 50.80%;
+    top: 53.25%;
+    bottom: 25.33%;
+    background: #141518;
+    border-radius: 3px;
+}
+.box24{
+    position: absolute;
+    left: 54.25%;
+    right: 25.33%;
+    top: 53.25%;
+    bottom: 25.33%;
+    background: #141518;
+    border-radius: 3px;
+}
+.btn1{
+    position: absolute;
+    width: 68px;
+    height: 50px;
+    left: 40px;
+    top: 358px;
+    background: #FFBB29;
+    border-radius: 50px;
+}
+.btn2{
+    position: absolute;
+    width: 143px;
+    height: 50px;
+    left: 132px;
+    top: 358px;
+    background: #1D1F25;
+    border-radius: 50px;
+}
+.btn3{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 299px;
+    top: 358px;
+    background: #1D1F25;
+    border-radius: 50px;
+}
+.btn4{
+    position: absolute;
+    width: 113px;
+    height: 50px;
+    left: 453px;
+    top: 358px;
+    background: #1D1F25;
+    border-radius: 50px;
+}
+.btn5{
+    position: absolute;
+    width: 138px;
+    height: 50px;
+    left: 590px;
+    top: 358px;
+    background: #1D1F25;
+    border-radius: 50px;
+}
+.btn6{
+    position: absolute;
+    width: 91px;
+    height: 50px;
+    left: 752px;
+    top: 358px;
+    background: #1D1F25;
+    border-radius: 50px;
+}
+.btn7{
+    position: absolute;
+    width: 88px;
+    height: 50px;
+    left: 867px;
+    top: 358px;
+    background: #1D1F25;
+    border-radius: 50px;
+}
+.all{
+    position: absolute;
+    width: 20px;
+    height: 24px;
+    left: 24px;
+    top: -4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #141518;
+}
+.technology{
+    position: absolute;
+    width: 95px;
+    height: 24px;
+    left: 24px;
+    top: -4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.education{
+    position: absolute;
+    width: 81px;
+    height: 24px;
+    left: 24px;
+    top: -4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.lifestyle{
+    position: absolute;
+    width: 65px;
+    height: 24px;
+    left: 24px;
+    top: -4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.healthcare{
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: 24px;
+    top: -4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.sport{
+    position: absolute;
+    width: 43px;
+    height: 24px;
+    left: 24px;
+    top: -4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.food{
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 24px;
+    top: -4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+#col1{
+    position: absolute;
+    width: 325px;
+    height: 454px;
+    left: 40px;
+    top: 448px;
+    background: #1D1F25;
+    border-radius: 10px;
+}
+#col2{
+    position: absolute;
+    width: 325px;
+    height: 454px;
+    left: 385px;
+    top: 448px;
+    background: #1D1F25;
+    border-radius: 10px;
+}
+#col3{
+    position: absolute;
+    width: 325px;
+    height: 454px;
+    left: 730px;
+    top: 448px;
+    background: #1D1F25;
+    border-radius: 10px;
+}
+#col4{
+    position: absolute;
+    width: 325px;
+    height: 454px;
+    left: 1075px;
+    top: 448px;
+    background: #1D1F25;
+    border-radius: 10px;
+}
+.imgc1{
+    position: absolute;
+    width: 325px;
+    height: 200px;
+    background: url(https://thumbs.dreamstime.com/b/close-up-woman-s-hand-pulling-carrot-out-ground-close-up-woman-s-hand-pulling-carrot-out-ground-259961845.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgc2{
+    position: absolute;
+    width: 325px;
+    height: 200px;
+    background: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_the_Importance_of_Technology.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgc3{
+    position: absolute;
+    width: 325px;
+    height: 200px;
+    background: url(https://w7.pngwing.com/pngs/915/345/png-transparent-multicolored-balloons-illustration-balloon-balloon-free-balloons-easter-egg-desktop-wallpaper-party-thumbnail.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgc4{
+    position: absolute;
+    width: 325px;
+    height: 200px;
+    background: url(https://i.pinimg.com/originals/cf/b8/75/cfb875ac3b1c8575b051af65e3f00488.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yellow{
+    position: absolute;
+    width: 125px;
+    height: 21px;
+    left: 22px;
+    top: 220px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 8px;
+    color: #FFBB29;
+}
+.lorm{
+    position: absolute;
+    height: 66px;
+    left: 7%;
+    right: 3.5%;
+    top: calc(50% - 66px/2 + 125px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #B5B5BE;
+}
+.heading{
+    position: absolute;
+    height: 58px;
+    left: 6.89%;
+    /* right: 75.76%; */
+    top: calc(50% - 58px/2 + 53px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.read{
+    position: absolute;
+    width: 76px;
+    height: 21px;
+    left: 24px;
+    top: 409px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFBB29;
+}
+.arrow{
+    position: absolute;
+    left: 36.58%;
+    right: 15.29%;
+    top: 89%;
+    bottom: 50%;
+    background-color: #1D1F25;
+    width: 19px;
+}
+#col5{
+    position: absolute;
+    width: 325px;
+    height: 454px;
+    left: 40px;
+    top: 920px;
+    background: #1D1F25;
+    border-radius: 10px;
+}
+#col6{
+    position: absolute;
+    width: 325px;
+    height: 454px;
+    left: 385px;
+    top: 920px;
+    background: #1D1F25;
+    border-radius: 10px;
+}
+#col7{
+    position: absolute;
+    width: 325px;
+    height: 454px;
+    left: 730px;
+    top: 920px;
+    background: #1D1F25;
+    border-radius: 10px;
+}
+#col8{
+    position: absolute;
+    width: 325px;
+    height: 454px;
+    left: 1075px;
+    top: 920px;
+    background: #1D1F25;
+    border-radius: 10px;
+}
